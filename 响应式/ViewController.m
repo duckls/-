@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "NSObject+CaculatorMaker.h"
 
 @interface ViewController ()
 
@@ -16,14 +17,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    int iResult = [NSObject makeCaculators:^(CaculatorMaker *make) {
+        make.add(1).add(2).sub(10);
+    }];
+ 
+    NSLog(@"iResult = %@",@(iResult));
 }
 
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 
 @end

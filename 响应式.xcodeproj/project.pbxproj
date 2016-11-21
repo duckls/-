@@ -13,6 +13,8 @@
 		8C3F954F1DE2A0F400DBAC3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C3F954D1DE2A0F400DBAC3F /* Main.storyboard */; };
 		8C3F95511DE2A0F400DBAC3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C3F95501DE2A0F400DBAC3F /* Assets.xcassets */; };
 		8C3F95541DE2A0F400DBAC3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C3F95521DE2A0F400DBAC3F /* LaunchScreen.storyboard */; };
+		8C3F95661DE2A6D400DBAC3F /* NSObject+CaculatorMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C3F95651DE2A6D400DBAC3F /* NSObject+CaculatorMaker.m */; };
+		8C3F95691DE2A71200DBAC3F /* CaculatorMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C3F95681DE2A71200DBAC3F /* CaculatorMaker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		8C3F95501DE2A0F400DBAC3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C3F95531DE2A0F400DBAC3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C3F95551DE2A0F400DBAC3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C3F95641DE2A6D400DBAC3F /* NSObject+CaculatorMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+CaculatorMaker.h"; sourceTree = "<group>"; };
+		8C3F95651DE2A6D400DBAC3F /* NSObject+CaculatorMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CaculatorMaker.m"; sourceTree = "<group>"; };
+		8C3F95671DE2A71200DBAC3F /* CaculatorMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaculatorMaker.h; sourceTree = "<group>"; };
+		8C3F95681DE2A71200DBAC3F /* CaculatorMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaculatorMaker.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				8C3F95481DE2A0F400DBAC3F /* AppDelegate.m */,
 				8C3F954A1DE2A0F400DBAC3F /* ViewController.h */,
 				8C3F954B1DE2A0F400DBAC3F /* ViewController.m */,
+				8C3F95671DE2A71200DBAC3F /* CaculatorMaker.h */,
+				8C3F95681DE2A71200DBAC3F /* CaculatorMaker.m */,
+				8C3F95641DE2A6D400DBAC3F /* NSObject+CaculatorMaker.h */,
+				8C3F95651DE2A6D400DBAC3F /* NSObject+CaculatorMaker.m */,
 				8C3F954D1DE2A0F400DBAC3F /* Main.storyboard */,
 				8C3F95501DE2A0F400DBAC3F /* Assets.xcassets */,
 				8C3F95521DE2A0F400DBAC3F /* LaunchScreen.storyboard */,
@@ -152,6 +162,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C3F954C1DE2A0F400DBAC3F /* ViewController.m in Sources */,
+				8C3F95691DE2A71200DBAC3F /* CaculatorMaker.m in Sources */,
+				8C3F95661DE2A6D400DBAC3F /* NSObject+CaculatorMaker.m in Sources */,
 				8C3F95491DE2A0F400DBAC3F /* AppDelegate.m in Sources */,
 				8C3F95461DE2A0F400DBAC3F /* main.m in Sources */,
 			);
